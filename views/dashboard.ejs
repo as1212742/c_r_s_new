@@ -1,0 +1,101 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<style> 
+    .panel, .flip {
+      padding: 5px;
+      text-align: left;
+      background-color: #e5eecc;
+      border: solid 1px #c3c3c3;
+    }
+    
+    .panel {
+      padding: 50px;
+      display: none; 
+      text-align :left;
+    }
+
+   
+    </style>
+<% include ./partials/messages %>
+
+
+<% include menu %>
+<br/>
+<p class="lead mb-3">Welcome <%= user.name %></p>
+
+
+<%  courses.forEach(courses=>   {   %>
+    <div class="card mt-4">
+        
+        <div class="card-body">
+            <h4 class="card-title"><%=courses.name %></h4>
+            <div class="card-subtitletext-muted mb-2">
+                Sem <%= courses.sem %>
+            </div>
+            <div class="card-text mb-2"><%= courses.desc %></div>
+            <div class="card-text mb-2"><%= courses.Faculty %></div>            
+            <div class="card-text mb-2">
+            Rating: <span class="rating"><%= courses.Rating %> </span>
+            </div>
+            <div class="card-text mb-2">
+            Difficulty: <span class="Difficulty"><%= courses.Difficulty %> </span>
+            </div>
+
+
+            <div class="flip">+ Reviews</div>
+            <div class="panel">
+                 
+                <div class="card-text mb-2"> <%  courses.Reviews.forEach(review=>  { if(review.comment) { %>
+                    <div class="card-text mb-2"> 
+                        
+                        " <%= review.comment %> " 
+                        - <%= review.student %>  
+                        </div>
+                    
+                         
+                        <%   } })     %> 
+                     </div> 
+            </div>
+
+           
+
+            
+         </div>
+    </div>
+<%  })  %>
+
+
+
+
+
+<script>
+
+$(document).ready(function(){
+    $(".rating").each(function(){
+        $(this).text(parseFloat($(this).text()).toFixed(1));
+
+    })
+   
+    $(".Difficulty").each(function(){
+        $(this).text(parseFloat($(this).text()).toFixed(1));
+
+    })
+    $(".panel").hide();
+
+
+  $(".flip").click(function(){
+    $(this).next().slideToggle("slow");
+  
+  if ($(this).text()=="+ Reviews") {
+    $(this).text("- Reviews"); } 
+ else if ($(this).text()=="- Reviews")
+  {
+   $(this).text("+ Reviews");
+   }
+  });
+  
+  
+});
+
+</script>

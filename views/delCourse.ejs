@@ -1,0 +1,45 @@
+<% include ./partials/messages %>
+<% include menu %>
+
+  <link rel="stylesheet" href="css/rating.css">
+  <div class="row mt-5">
+      <div class="col-md-6 m-auto">
+        <div class="card card-body">
+          <h1 class="text-center mb-3">
+            <i class="fas fa-minus-circle"></i> Delete a Course
+          </h1>
+         
+          <form action="/users/delCourse" method="POST">
+            
+            <div class="form-group">
+              <label for="course">Course</label>
+              
+                  <select id="course_name" name="course_name" class="browser-default custom-select">
+                      <option selected >Choose Course</option>
+                      <%if (courses) {courses.forEach(courses=>   {   %>
+                      <option value="<%=courses.name %>""><%=courses.name %></option>
+                      <% } ) } %>
+                    </select>    
+                  
+              
+             
+  
+            </div>
+           
+           
+  
+  
+    
+    
+    
+    
+            <button type="submit" class="btn btn-primary btn-block">
+              Submit
+            </button>
+          </form>
+          </div>
+      </div>
+    </div>
+    <script> 
+     
+      </script> 

@@ -1,0 +1,112 @@
+
+
+  <link rel="stylesheet" href="css/rating.css">
+  <% include ./partials/messages %>
+  
+  <% include menu %>
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+      <div class="card card-body">
+        <h1 class="text-center mb-3">
+          <i class="fas fa-user-plus"></i> Add a Review
+        </h1>
+       
+        <form action="/users/addReview" method="POST">
+          <div class="form-group">
+            <label for="name">Student Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              placeholder="Enter Name"
+              value="<%= typeof user.name != 'undefined' ? user.name : '' %>"
+            />
+          </div>
+          <div class="form-group">
+            <label for="stud_id">Student ID</label>
+            <input
+              type="text"
+              id="stud_id"
+              name="stud_id"
+              class="form-control"
+              placeholder="Enter Student Id"
+              value="<%= typeof user.stud_id != 'undefined' ? user.stud_id : '' %>"
+            />
+          </div>
+          <div class="form-group">
+            <label for="course">Course</label>
+            
+                <select id="course" name="course" class="browser-default custom-select">
+                    <option selected >Choose Course</option>
+                    <%courses.forEach(courses=>   {   %>
+                    <option value="<%=courses.name %>""><%=courses.name %></option>
+                    <% } ) %>
+                  </select>    
+                
+            
+           
+
+          </div>
+          <div class="form-group">
+            
+           
+           
+         <label for="Rating">Rating (1-5) 1-least 2-highest:</label>
+            <input
+              type="number"
+              id="rating"
+              name="rating"
+              class="form-control"
+              
+              
+            />
+          </div>
+
+         
+
+
+
+
+          <div class="form-group">
+            <label for="difficulty">Difficulty (1-5) 1-least 2-highest:</label>
+            <input
+              type="number"
+              
+              id="difficulty"
+              name="difficulty"
+              class="form-control"
+            
+              
+            />
+          </div>
+
+
+          <div class="form-group">
+            <label for="comment">Review :</label>
+            <input
+              type="text"
+              
+              id="comment"
+              name="comment"
+              class="form-control"
+            
+              
+            />
+          </div>
+  
+  
+  
+  
+          <button type="submit" class="btn btn-primary btn-block">
+            Submit
+          </button>
+        </form>
+        </div>
+    </div>
+  </div>
+  <script> 
+    
+    </script> 
+
+
