@@ -10,7 +10,7 @@ exports.loggerInstance = bunyan.createLogger({
     level: 'info',
     streams: [
         {
-            path: './foo.log'
+            path: './logs/foo.log'
         },
         {
             stream: process.stdout
