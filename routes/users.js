@@ -98,8 +98,7 @@ router.post('/login', (req, res, next) => {
   
   )(req, res, next);
 
-  var msg="user logged in "
-  logger.logResponse(req.user, req.user ,msg);
+  
 });
 
 // Logout
@@ -158,8 +157,29 @@ var review1id;
     //console.log("\n",course+rating1+rating2+rating3+rating4+rating5+net_rating+stud_id)
     
          //get course._id
-   
-    student=req.user.name
+     Review.findOne({student:req.user.name , course:course},async function(err,result){
+      
+      if(result){
+        errors.push({ msg: 'You have already reviewed the course.' });
+        res.render('addReview', {
+          errors,user: req.user,
+          stud_id,courses
+        });
+      
+     
+
+
+      }
+
+
+      else{
+
+
+
+
+
+
+        student=req.user.name
     review1 = new Review()
      review1.rating=rating
      review1.difficulty=difficulty
@@ -282,6 +302,20 @@ async function UpdateRatingOfCourse(){
         var updateRatingOfCourse=await UpdateRatingOfCourse()
 
 
+
+
+
+
+        
+      }
+
+     })
+
+
+
+
+    
+
       }
     
 
@@ -342,11 +376,7 @@ router.post('/addCourse',(req,res)=>{
 
 /*
     
-
     
-
-
-
   */  
    
 
@@ -446,9 +476,6 @@ router.post('/delCourse',(req,res)=>{
     
    
     
-
-
-
   */  
    
 
