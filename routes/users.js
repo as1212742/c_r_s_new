@@ -24,7 +24,7 @@ router.post('/register', (req, res) => {
   let errors = [];
 
   if (!name || !email || !password || !password2 ||!stud_id) {
-    errors.push({ msg: 'Please enter all fields' });
+   errors.push({ msg: 'Please enter all fields' });
   }
 
   if (password != password2) {
