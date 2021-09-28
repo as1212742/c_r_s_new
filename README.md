@@ -87,3 +87,13 @@
 | Scenario | URL  |data|
 | :-------- |:-------|:---|
 | For rest categories excluding above given for l1/l2/l3,the given URL opens by default| `http://localhost:3000/pc/fruits-vegetables/fresh-vegetables/gourd-pumpkin-drumstick/` | ***nil***  |
+
+
+#### Product Search(ps)
+
+| Scenario | URL  |data|
+| :-------- |:-------|:---|
+|When user type biscuits in search the given URL gets hit.<br> ***Result***<br>1)biscuits page  | `http://localhost:3000/ps/?q=biscuits` | ***Search Term***:biscuits|
+|When user type rice in search the given URL gets hit.<br> ***Result***<br>1)rice page  | `http://localhost:3000/ps/?q=rice` | ***Search Term***:rice|
+|When user type vegetables in search the given URL gets hit.<br> ***Result***<br>1)vegetables page  | `http://localhost:3000/ps/?q=vegetables` | ***Search Term***:vegetables|
+|When user type any term other than biscuits,rice,vegetables in search the given URL gets hit.<br> ***Result***<br>1)default biscuits page  | `http://localhost:3000/ps/?q=${user-given-search-term}` | ***Search Term***:vegetables|
