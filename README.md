@@ -15,4 +15,4 @@
 #### Listing page (l2)
 | Scenario | URL  |data|
 | :-------- |:-------|:---|
-| foodgrains-oil-masala.<br> ***Steps to replicate***:<br> 1) you can apply filters Brand=18herbs and it is the only working filter <br>2) Sort applied is relevance| `http://localhost:3000/cl/foodgrains-oil-masala/` | ***filters***: <br>Brand=18herbs |
+| foodgrains-oil-masala/atta-flours-sooji.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/` | ***nil***  |
