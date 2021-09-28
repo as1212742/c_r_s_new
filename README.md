@@ -43,4 +43,6 @@
 
 
 #### Listing page (l3)
-| snacks-branded-foods/indian-mithai.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/indian-mithai/` | ***nil***  |
+| Scenario | URL  |data|
+| :-------- |:-------|:---|
+| foodgrains-oil-masala/atta-flours-sooji/atta-whole-wheat.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/atta-whole-wheat/` | ***nil***  |
