@@ -16,3 +16,4 @@
 | Scenario | URL  |data|
 | :-------- |:-------|:---|
 | foodgrains-oil-masala/atta-flours-sooji.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/` | ***nil***  |
+| foodgrains-oil-masala/dals-pulses.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/dals-pulses/` | ***nil***  |
