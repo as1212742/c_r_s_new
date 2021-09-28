@@ -40,3 +40,7 @@
 | snacks-branded-foods/breakfast-cereals.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/breakfast-cereals/` | ***nil***  |
 | snacks-branded-foods/frozen-veggies-snacks.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/frozen-veggies-snacks/` | ***nil***  |
 | snacks-branded-foods/indian-mithai.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/indian-mithai/` | ***nil***  |
+
+
+#### Listing page (l3)
+| snacks-branded-foods/indian-mithai.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/indian-mithai/` | ***nil***  |
