@@ -97,4 +97,5 @@
 |When user type "rice" in search the given URL gets hit.<br> ***Result:***<br>1)rice page  | `http://localhost:3000/ps/?q=rice` | ***Search Term***:rice|
 |When user type "vegetables" in search the given URL gets hit.<br> ***Result:***<br>1)vegetables page  | `http://localhost:3000/ps/?q=vegetables` | ***Search Term***:vegetables|
 |When user type "riceee" in search the given URL gets hit and results for ***corrected term rice is shown***.<br> ***Result:***<br>1)rice page  | `http://localhost:3000/ps/?q=riceee` | ***Search Term***:riceee <br>***corrected term***:rice|
+|When user type "rice hj" in search the given URL gets hit and ***other relevant results are shown***.<br> ***Result:***<br>1)relevant result  | `http://localhost:3000/ps/?q=riceee` | ***Search Term***:rice hj <br>|
 |When user type any term other than biscuits,rice,vegetables in search the given URL gets hit.<br> ***Result:***<br>1)default biscuits page  | `http://localhost:3000/ps/?q=${user-given-search-term}` | ***Search Term***:${user-given-search-term}|
