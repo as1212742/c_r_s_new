@@ -15,7 +15,7 @@
 #### Listing page (l2)
 | Scenario | URL  |data|
 | :-------- |:-------|:---|
-| foodgrains-oil-masala/atta-flours-sooji.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/` | ***nil***  |
+| foodgrains-oil-masala/atta-flours-sooji.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/` | ***nil***  |
 | foodgrains-oil-masala/dals-pulses.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/dals-pulses/` | ***nil***  |
 | foodgrains-oil-masala/dry-fruits.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/dry-fruits/` | ***nil***  |
 | foodgrains-oil-masala/edible-oils-ghee.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/edible-oils-ghee/` | ***nil***  |
