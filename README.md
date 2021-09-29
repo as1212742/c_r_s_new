@@ -8,7 +8,7 @@
 | foodgrains-oil-masala.<br> ***Steps to replicate***:<br> 1) In filters with multi-select option apply: Brands = 18 Herbs  <br>2) Sort applied should be relevance| `http://localhost:3000/cl/foodgrains-oil-masala/` | ***filters***: <br>Brand=18herbs |
 | fruits-vegetables.<br> ***Steps to replicate***:<br> 1) In filters with multi-select option apply: Product Rating = 4 | `http://localhost:3000/cl/fruits-vegetables/` | ***filters***: <br>Product Rating = 4 |
 | bakery-cakes-dairy.<br> ***Steps to replicate***:<br> 1) In filters with single-select option apply: Discount = Upto 5% | `http://localhost:3000/cl/bakery-cakes-dairy/` | ***filters***: <br>Discount = Upto 5% |
-| beverages.<br> ***Steps to replicate***:<br> 1) In filters with multi-select option apply:<br> a) Price = Less than Rs 20 <br>b)Price = Rs 21 to Rs 50<br>c) Price = Less than Rs 20 and price = Rs 21 to Rs 50 | `http://localhost:3000/cl/beverages/` | ***filters***: <br>Price = Less than Rs 20 <br> or <br> price =  Less than Rs 20  ***and*** price = Rs 21 to Rs 50  |
+| beverages.<br> ***Steps to replicate***:<br> 1) In filters with multi-select option apply:<br> a) Price = Less than Rs 20 <br>b) Price = Rs 21 to Rs 50<br>c) Price = Less than Rs 20 and price = Rs 21 to Rs 50 | `http://localhost:3000/cl/beverages/` | ***filters***: <br>Price = Less than Rs 20 <br> or <br> price =  Less than Rs 20  ***and*** price = Rs 21 to Rs 50  |
 | snacks-branded-foods.<br> ***Steps to replicate***:<br>1) Sort applied can be "relevance", "Alplabetical", "Price - High to Low"| `http://localhost:3000/cl/snacks-branded-foods/` | ***sort***: <br>"relevance", "Alplabetical", "Price - High to Low" can be applied|
 
 
