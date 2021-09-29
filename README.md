@@ -88,6 +88,14 @@
 | :-------- |:-------|:---|
 | For rest categories excluding above given for l1/l2/l3, "foodgrains-oil-masala/dry-fruits" category data shown by default| `http://localhost:3000/pc/${any category excluding above given for l1/l2/l3 }` | ***nil***  |
 
+#### Listing page with pagination 
+| Scenario | URL  |data|
+| :-------- |:-------|:---|
+| foodgrains-oil-masala/atta-flours-sooji.<br> ***Scrool Down items to see pagination data***| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/` | ***nil***  |
+| foodgrains-oil-masala/dals-pulses.<br> ***Scrool Down items to see pagination data***| `http://localhost:3000/pc/foodgrains-oil-masala/dals-pulses/` | ***nil***  |
+| foodgrains-oil-masala/dry-fruits.<br> ***Scrool Down items to see pagination data***| `http://localhost:3000/pc/foodgrains-oil-masala/dry-fruits/` | ***nil***  |
+| foodgrains-oil-masala/edible-oils-ghee.<br> ***Scrool Down items to see pagination data***| `http://localhost:3000/pc/foodgrains-oil-masala/edible-oils-ghee/` | ***nil***  |
+| foodgrains-oil-masala/masalas-spices.<br> ***Scrool Down items to see pagination data***| `http://localhost:3000/pc/foodgrains-oil-masala/masalas-spices/` | ***nil***  |
 
 #### Product Search(ps)
 
