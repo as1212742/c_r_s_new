@@ -21,25 +21,25 @@
 | foodgrains-oil-masala/edible-oils-ghee.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/edible-oils-ghee/` | ***nil***  |
 | foodgrains-oil-masala/masalas-spices.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/masalas-spices/` | ***nil***  |
 | fruits-vegetables/cuts-sprouts.<br> ***listing landing page***| `http://localhost:3000/pc/fruits-vegetables/cuts-sprouts/` | ***nil***  |
-| fruits-vegetables/exotic-fruits-veggies.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/exotic-fruits-veggies/` | ***nil***  |
-| fruits-vegetables/flower-bouquets-bunches.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/flower-bouquets-bunches/` | ***nil***  |
-| fruits-vegetables/fresh-fruits.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/fresh-fruits/` | ***nil***  |
-| fruits-vegetables/fresh-vegetables.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/fresh-vegetables/` | ***nil***  |
-| bakery-cakes-dairy/bakery-snacks.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/bakery-cakes-dairy/bakery-snacks/` | ***nil***  |
-| bakery-cakes-dairy/breads-buns.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/bakery-cakes-dairy/breads-buns/` | ***nil***  |
-| bakery-cakes-dairy/cakes-pastries.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/bakery-cakes-dairy/cakes-pastries/` | ***nil***  |
-| bakery-cakes-dairy/cookies-rusk-khari.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/bakery-cakes-dairy/cookies-rusk-khari/` | ***nil***  |
-| bakery-cakes-dairy/dairy.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/bakery-cakes-dairy/dairy/` | ***nil***  |
-| beverages/coffee.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/beverages/coffee/` | ***nil***  |
-| beverages/energy-soft-drinks.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/beverages/energy-soft-drinks/` | ***nil***  |
-| beverages/fruit-juices-drinks.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/beverages/fruit-juices-drinks/` | ***nil***  |
-| beverages/health-drink-supplement.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/beverages/health-drink-supplement/` | ***nil***  |
-| beverages/tea.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/beverages/tea/` | ***nil***  |
-| snacks-branded-foods/chocolates-candies.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/chocolates-candies/` | ***nil***  |
-| snacks-branded-foods/biscuits-cookies.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/biscuits-cookies/` | ***nil***  |
-| snacks-branded-foods/breakfast-cereals.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/breakfast-cereals/` | ***nil***  |
-| snacks-branded-foods/frozen-veggies-snacks.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/frozen-veggies-snacks/` | ***nil***  |
-| snacks-branded-foods/indian-mithai.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/snacks-branded-foods/indian-mithai/` | ***nil***  |
+| fruits-vegetables/exotic-fruits-veggies.<br> ***listing landing page***| `http://localhost:3000/pc/fruits-vegetables/exotic-fruits-veggies/` | ***nil***  |
+| fruits-vegetables/flower-bouquets-bunches.<br> ***listing landing page***| `http://localhost:3000/pc/fruits-vegetables/flower-bouquets-bunches/` | ***nil***  |
+| fruits-vegetables/fresh-fruits.<br> ***listing landing page***| `http://localhost:3000/pc/fruits-vegetables/fresh-fruits/` | ***nil***  |
+| fruits-vegetables/fresh-vegetables.<br> ***listing landing page***| `http://localhost:3000/pc/fruits-vegetables/fresh-vegetables/` | ***nil***  |
+| bakery-cakes-dairy/bakery-snacks.<br> ***listing landing page***| `http://localhost:3000/pc/bakery-cakes-dairy/bakery-snacks/` | ***nil***  |
+| bakery-cakes-dairy/breads-buns.<br> ***listing landing page***| `http://localhost:3000/pc/bakery-cakes-dairy/breads-buns/` | ***nil***  |
+| bakery-cakes-dairy/cakes-pastries.<br> ***listing landing page***| `http://localhost:3000/pc/bakery-cakes-dairy/cakes-pastries/` | ***nil***  |
+| bakery-cakes-dairy/cookies-rusk-khari.<br> ***listing landing page***| `http://localhost:3000/pc/bakery-cakes-dairy/cookies-rusk-khari/` | ***nil***  |
+| bakery-cakes-dairy/dairy.<br> ***listing landing page***| `http://localhost:3000/pc/bakery-cakes-dairy/dairy/` | ***nil***  |
+| beverages/coffee.<br> ***listing landing page***| `http://localhost:3000/pc/beverages/coffee/` | ***nil***  |
+| beverages/energy-soft-drinks.<br> ***listing landing page***| `http://localhost:3000/pc/beverages/energy-soft-drinks/` | ***nil***  |
+| beverages/fruit-juices-drinks.<br> ***listing landing page***| `http://localhost:3000/pc/beverages/fruit-juices-drinks/` | ***nil***  |
+| beverages/health-drink-supplement.<br> ***listing landing page***| `http://localhost:3000/pc/beverages/health-drink-supplement/` | ***nil***  |
+| beverages/tea.<br> ***listing landing page***| `http://localhost:3000/pc/beverages/tea/` | ***nil***  |
+| snacks-branded-foods/chocolates-candies.<br> ***listing landing page***| `http://localhost:3000/pc/snacks-branded-foods/chocolates-candies/` | ***nil***  |
+| snacks-branded-foods/biscuits-cookies.<br> ***listing landing page***| `http://localhost:3000/pc/snacks-branded-foods/biscuits-cookies/` | ***nil***  |
+| snacks-branded-foods/breakfast-cereals.<br> ***listing landing page***| `http://localhost:3000/pc/snacks-branded-foods/breakfast-cereals/` | ***nil***  |
+| snacks-branded-foods/frozen-veggies-snacks.<br> ***listing landing page***| `http://localhost:3000/pc/snacks-branded-foods/frozen-veggies-snacks/` | ***nil***|
+| snacks-branded-foods/indian-mithai.<br> ***listing landing page***| `http://localhost:3000/pc/snacks-branded-foods/indian-mithai/` | ***nil***  |
 
 
 #### Listing page (l3)
