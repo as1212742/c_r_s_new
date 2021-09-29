@@ -16,11 +16,11 @@
 | Scenario | URL  |data|
 | :-------- |:-------|:---|
 | foodgrains-oil-masala/atta-flours-sooji.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/atta-flours-sooji/` | ***nil***  |
-| foodgrains-oil-masala/dals-pulses.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/dals-pulses/` | ***nil***  |
-| foodgrains-oil-masala/dry-fruits.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/dry-fruits/` | ***nil***  |
-| foodgrains-oil-masala/edible-oils-ghee.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/edible-oils-ghee/` | ***nil***  |
-| foodgrains-oil-masala/masalas-spices.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/foodgrains-oil-masala/masalas-spices/` | ***nil***  |
-| fruits-vegetables/cuts-sprouts.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/cuts-sprouts/` | ***nil***  |
+| foodgrains-oil-masala/dals-pulses.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/dals-pulses/` | ***nil***  |
+| foodgrains-oil-masala/dry-fruits.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/dry-fruits/` | ***nil***  |
+| foodgrains-oil-masala/edible-oils-ghee.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/edible-oils-ghee/` | ***nil***  |
+| foodgrains-oil-masala/masalas-spices.<br> ***listing landing page***| `http://localhost:3000/pc/foodgrains-oil-masala/masalas-spices/` | ***nil***  |
+| fruits-vegetables/cuts-sprouts.<br> ***listing landing page***| `http://localhost:3000/pc/fruits-vegetables/cuts-sprouts/` | ***nil***  |
 | fruits-vegetables/exotic-fruits-veggies.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/exotic-fruits-veggies/` | ***nil***  |
 | fruits-vegetables/flower-bouquets-bunches.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/flower-bouquets-bunches/` | ***nil***  |
 | fruits-vegetables/fresh-fruits.<br> ***Steps to replicate***:<br> 1) none of the filters are working <br>2) Sort applied is relevance| `http://localhost:3000/pc/fruits-vegetables/fresh-fruits/` | ***nil***  |
