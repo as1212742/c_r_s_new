@@ -86,7 +86,7 @@
 ### default listing page for l1/l2/l3
 | Scenario | URL  |data|
 | :-------- |:-------|:---|
-| For rest categories excluding above given for l1/l2/l3, foodgrains-oil-masala/dry-fruits category data shown by default| `http://localhost:3000/pc/${any category excluding above given for l1/l2/l3 }` | ***nil***  |
+| For rest categories excluding above given for l1/l2/l3, "foodgrains-oil-masala/dry-fruits" category data shown by default| `http://localhost:3000/pc/${any category excluding above given for l1/l2/l3 }` | ***nil***  |
 
 
 #### Product Search(ps)
